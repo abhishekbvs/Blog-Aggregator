@@ -1,7 +1,4 @@
-# learndjango
 Django
-Learning Django
-
 Things to do:
 
 Running the site locally in our system
