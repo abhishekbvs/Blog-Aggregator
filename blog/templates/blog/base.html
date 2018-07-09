@@ -7,21 +7,33 @@
         <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
-    <body>
-        <div class="page-header">
+    <body class="main">
+        <div class="page-header row">
+            <div class="col-md-1">
+                <img src="{% static 'images/foss_bulb_logo_white.png' %}" height="80px">
+            </div>
+            <div class="col-md-7">
+              <h1> Blog Aggregator</h1>
+            </div>
+            <div class="col-md-2" id="add" align="center">
             {% if user.is_authenticated %}
               <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             {% endif %}
-            <h1><a href="/">Django Boys Blog</a></h1>
+            </div>
+            <div class="col-md-2">
+              <a href="#"><img src="{% static 'images/foss_title_logo_white.png' %}" width="250px"></a>
+            </div>
         </div>
 
-        <div class="content container">
+        <div class="container" align="center">
+          <div class="content">
             <div class="row">
                 <div class="col-md-8">
                   {% block content %}
                   {% endblock %}
                 </div>
             </div>
+          </div>
         </div>
     </body>
 </html>
