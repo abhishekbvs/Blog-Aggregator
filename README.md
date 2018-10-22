@@ -14,6 +14,6 @@ For video tutorials: https://www.youtube.com/watch?v=qgGIqRFvFFk&list=PL6gx4Cwl9
 
 Links to populate DB: https://www.google.com/url?q=https://github.com/amfoss/fosswebsite/blob/development/docs/POPULATE_DB.md&sa=D&source=hangouts&ust=1525450166758000&usg=AFQjCNFE7OTT6_J2ee-05SIux2OKPU0tWQ http://saktimayi.amritavidya.edu/~u4cse16209/8.sql
 
-Github Handels:
+Github Handles:
 
 Abhishek Bvs https://github.com/abhishekbvs
