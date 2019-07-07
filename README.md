@@ -1,19 +1,30 @@
-Django
-Things to do:
-
-Running the site locally in our system
-Populate DB
-Learn Django
-Go through the Codebase and understand the whole code and features
-To Create a blog aggregrator or go through the current code written for that
-Doumentation: https://docs.google.com/document/d/1fGpCDsFhNoH04UzMe2kq7QlmQtQYOkALR972oDy9kB4/edit?usp=sharing
-
-Links Given: https://www.codementor.io/rogargon/simple-django-web-application-tutorial-du107rmn4 https://www.djangoproject.com/start/ https://docs.djangoproject.com/en/2.0/intro/tutorial01/ https://tutorial.djangogirls.org/en/
-
-For video tutorials: https://www.youtube.com/watch?v=qgGIqRFvFFk&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
-
-Links to populate DB: https://www.google.com/url?q=https://github.com/amfoss/fosswebsite/blob/development/docs/POPULATE_DB.md&sa=D&source=hangouts&ust=1525450166758000&usg=AFQjCNFE7OTT6_J2ee-05SIux2OKPU0tWQ http://saktimayi.amritavidya.edu/~u4cse16209/8.sql
-
-Github Handles:
-
-Abhishek Bvs https://github.com/abhishekbvs
+#Blog Aggregator
+This is a django based web application. One need to install python, django and other dependencies to run this project. It's recommended to create a virtual environment and start contributing.
+###Installation Instructions
+1.Install Python3 and pip
+2.Install `virtualenvwrapper` and add it to your terminal path.
+3.Clone the repository and create the virtual environment
+    ```
+      $ git clone https://github.com/abhishekbvs/blog-aggregator.git
+      $ cd blog-aggregator
+      $ mkvirtualenv --python=python3 webapp
+      $ workon webapp
+    ```
+4.Install the dependencies from `requirements.txt`
+    ```
+      $ pip install -r requirements.txt
+    ```
+###Running the Application
+1.Start the virtual environment `workon webapp`
+2.Set up the database
+    ```
+      python manage.py migrate
+    ````
+3.Create super user
+    ```
+      python manage.py createsuperuser
+    ```
+4.Run the project
+    ```
+      python manage.py runserver
+    ```
