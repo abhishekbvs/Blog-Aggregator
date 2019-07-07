@@ -1,6 +1,6 @@
-#Blog Aggregator
+# Blog Aggregator
 This is a django based web application. One need to install python, django and other dependencies to run this project. It's recommended to create a virtual environment and start contributing.
-###Installation Instructions
+### Installation Instructions
 1.Install Python3 and pip
 2.Install `virtualenvwrapper` and add it to your terminal path.
 3.Clone the repository and create the virtual environment
@@ -14,7 +14,7 @@ This is a django based web application. One need to install python, django and o
     ```
       $ pip install -r requirements.txt
     ```
-###Running the Application
+### Running the Application
 1.Start the virtual environment `workon webapp`
 2.Set up the database
     ```
