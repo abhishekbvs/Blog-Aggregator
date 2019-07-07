@@ -1,5 +1,6 @@
 # Blog Aggregator
 [![Gitter](https://badges.gitter.im/amfoss/blog-aggregator.svg)](https://gitter.im/amfoss/blog-aggregator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 This is a django based web application. One need to install python, django and other dependencies to run this project. It's recommended to create a virtual environment and start contributing.
 ### Installation Instructions
 1. Install Python3 and pip
